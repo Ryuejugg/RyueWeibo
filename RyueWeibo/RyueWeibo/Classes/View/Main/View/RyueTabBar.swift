@@ -50,7 +50,8 @@ class RyueTabBar: UITabBar {
     }
     //添加控件
     private func setupUI(){
-        
+        //设置背景图片
+        self.backgroundImage=UIImage(named: "tabbar_background")
         addSubview(composeButton)
     }
     //MARK: - 点击加号按钮处理

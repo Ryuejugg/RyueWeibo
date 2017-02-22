@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E467B9301E5D736D00EC0BAC /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E467B92F1E5D736D00EC0BAC /* UIBarButtonItem+Extension.swift */; };
+		E467B9321E5D797900EC0BAC /* RyueNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E467B9311E5D797900EC0BAC /* RyueNavigationController.swift */; };
+		E467B9351E5D79FC00EC0BAC /* RyueTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E467B9341E5D79FC00EC0BAC /* RyueTestViewController.swift */; };
 		E4CD50D91E5D53F00025E64A /* RyueMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD50D81E5D53F00025E64A /* RyueMainViewController.swift */; };
 		E4CD50DB1E5D54190025E64A /* RyueHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD50DA1E5D54190025E64A /* RyueHomeTableViewController.swift */; };
 		E4CD50DD1E5D54350025E64A /* RyueDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD50DC1E5D54350025E64A /* RyueDiscoverTableViewController.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E467B92F1E5D736D00EC0BAC /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		E467B9311E5D797900EC0BAC /* RyueNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyueNavigationController.swift; sourceTree = "<group>"; };
+		E467B9341E5D79FC00EC0BAC /* RyueTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyueTestViewController.swift; sourceTree = "<group>"; };
 		E4CD50D81E5D53F00025E64A /* RyueMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyueMainViewController.swift; sourceTree = "<group>"; };
 		E4CD50DA1E5D54190025E64A /* RyueHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyueHomeTableViewController.swift; sourceTree = "<group>"; };
 		E4CD50DC1E5D54350025E64A /* RyueDiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RyueDiscoverTableViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E467B9331E5D79E900EC0BAC /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E467B9341E5D79FC00EC0BAC /* RyueTestViewController.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		E4CD50CE1E5D53CA0025E64A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +92,7 @@
 		E4CD50D11E5D53CA0025E64A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E467B9331E5D79E900EC0BAC /* Test */,
 				E4CD50D41E5D53CA0025E64A /* Main */,
 				E4CD50D31E5D53CA0025E64A /* Home */,
 				E4CD50D21E5D53CA0025E64A /* Discover */,
@@ -108,6 +123,7 @@
 			children = (
 				E4CD50E41E5D5CFF0025E64A /* View */,
 				E4CD50D81E5D53F00025E64A /* RyueMainViewController.swift */,
+				E467B9311E5D797900EC0BAC /* RyueNavigationController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -147,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				E4CD50E81E5D63800025E64A /* UIView+Extension.swift */,
+				E467B92F1E5D736D00EC0BAC /* UIBarButtonItem+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -256,6 +273,8 @@
 			files = (
 				E4CD50E11E5D544A0025E64A /* RyueProfileTableViewController.swift in Sources */,
 				E4CD50DF1E5D543E0025E64A /* RyueMessageTableViewController.swift in Sources */,
+				E467B9301E5D736D00EC0BAC /* UIBarButtonItem+Extension.swift in Sources */,
+				E467B9351E5D79FC00EC0BAC /* RyueTestViewController.swift in Sources */,
 				E4ECFE411E5D511B00F98C38 /* ViewController.swift in Sources */,
 				E4CD50E91E5D63800025E64A /* UIView+Extension.swift in Sources */,
 				E4CD50DD1E5D54350025E64A /* RyueDiscoverTableViewController.swift in Sources */,
@@ -263,6 +282,7 @@
 				E4CD50D91E5D53F00025E64A /* RyueMainViewController.swift in Sources */,
 				E4ECFE3F1E5D511B00F98C38 /* AppDelegate.swift in Sources */,
 				E4CD50DB1E5D54190025E64A /* RyueHomeTableViewController.swift in Sources */,
+				E467B9321E5D797900EC0BAC /* RyueNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

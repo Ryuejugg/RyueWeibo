@@ -60,7 +60,7 @@ class RyueMainViewController: UITabBarController {
         childController.title=title;
         
         //创建导航视图控制器
-        let nav = UINavigationController(rootViewController: childController)
+        let nav = RyueNavigationController(rootViewController: childController)
         
         addChildViewController(nav)
     }
